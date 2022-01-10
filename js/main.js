@@ -26,21 +26,6 @@ $(document).ready(function () {
     });
 
 
-    //Owl Caurosel 
-    $('.site-main .about-area .owl-carousel').owlCarousel({
-      loop: true,
-      autoplay: true,
-      dots: true,
-      responsive: {
-          0: {
-              items: 1
-          },
-          560: {
-              items: 2
-          }
-      }
-  })
-
 
   //Sticky Nav Menu
 
@@ -60,5 +45,21 @@ $(document).ready(function () {
   }
 
   navbarFixed();
+
+
+    // Typing Effect
+    let i = 0;
+    const txt = "I'm Hesbon";
+    let speed = 200;
+
+    const typeWriter = () => {
+      if (i < txt.length) {
+        document.getElementById("typing-effect").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+      }
+    }
+
+    typeWriter()
 
 })

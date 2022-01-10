@@ -19,7 +19,7 @@
   font: normal 500 16px/20px var(--roboto);
   position: relative;
   border: 3px solid transparent;
-  border-radius: 4px;
+  border-radius: 30px;
 }
 
 .button.primary-button {
@@ -31,7 +31,6 @@
 }
 
 .button.primary-button:hover {
-  background: whitesmoke;
   background-clip: padding-box;
   color: black;
 }
@@ -60,7 +59,7 @@
 
 p.para {
   color: var(--text-color);
-  font: normal 500 16px/25px var(--roboto);
+  font: normal 500 18px/25px var(--roboto);
 }
 
 .font-roboto {
