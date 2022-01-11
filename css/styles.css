@@ -101,110 +101,51 @@
 
 /* End About Area */
 
-/* Start Brand Area */
+/* Start Skills Area */
 
 .languages{
   text-align: center;
 }
 
-.site-main .brand-area {
+.brand-area {
   padding: 1rem 20rem;
   margin-bottom: 4rem;
 }
 
-.site-main .brand-area .first-row .col-lg-4 {
+.brand-area .first-row .col-lg-4 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.site-main .brand-area .first-row .col-lg-4 .single-brand {
-  border: 1px solid var(--border-color);
+.single-brand {
+  /* border: 1px solid var(--border-color); */
   text-align: center;
-  padding: 1.8rem 0rem;
+  padding: 1.5rem 0rem;
   margin: 0.9rem 0rem;
-  width: 180px;
-  height: 100px;
+  width: 200px;
+  height: 150px;
   cursor: pointer;
   transition: transform 0.4s ease;
 }
 
-.site-main .brand-area .first-row .col-lg-4 .single-brand > img {
-  width: 50%;
+.single-brand > img {
+  width: 60%;
   height: 100%;
 }
 
-.site-main .brand-area .first-row .col-lg-4 .single-brand:hover {
+.single-brand:hover {
   box-shadow: var(--box-shadow);
   transform: scale(1.1);
 }
 
-.site-main .brand-area .first-row .col-lg-4 .single-brand:hover > img {
+.single-brand:hover > img {
   filter: brightness(0.95);
 }
 
-.site-main .brand-area .experience-area {
-  padding-left: 1rem;
-  padding-top: 2rem;
-}
 
-.site-main .brand-area .experience-area span {
-  display: block;
-}
+/* End Skills Area */
 
-.site-main .brand-area .experience-area .bg-panel {
-  position: absolute;
-  left: -190px;
-  top: 0px;
-  background: #e029290e;
-  width: 400px;
-  height: 400px;
-  margin-left: 200px;
-  z-index: -1;
-}
-
-.site-main .brand-area .experience-area .years-area .years {
-  font: normal bold 84px/40px var(--roboto);
-  color: var(--primary-color);
-  z-index: 2;
-}
-
-.site-main .brand-area .experience-area .years-area h2 > span {
-  font: normal 600 22px/30px var(--roboto);
-}
-
-.site-main .brand-area .experience-area .call-area {
-  padding-left: 5rem;
-  padding-top: 2rem;
-}
-
-/* End Brand Area */
-
-/* Start Services Area */
-
-.site-main .services-area {
-  padding: 7rem 2rem;
-}
-
-.site-main .services-area .service-title {
-  padding: 0.14rem;
-}
-
-.site-main .services-area .service-title h1 {
-  font-size: 35px;
-}
-
-.site-main .services-area .services {
-  background: rgba(248, 252, 253, 0.973);
-  padding: 2rem 0rem;
-  width: 16rem;
-  margin: 5rem 0.5rem;
-  transition: box-shadow 0.7s ease;
-}
-
-.site-main .services-area .services:hover {
-  box-shadow: var(--box-shadow);
-}
-/* End Services Area */
 
 /* Project Area */
 
