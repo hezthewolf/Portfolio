@@ -11,6 +11,10 @@
   text-transform: upp;
 }
 
+.progress-mark{
+  color: var(--gradient-color);
+}
+
 
 
 /* Buttons */
@@ -28,6 +32,7 @@
   column-rule-color: whitesmoke;
   transition: background .6s ease;
   box-shadow: var(--box-shadow);
+  color: #FFFFFF;
 }
 
 .button.primary-button:hover {
