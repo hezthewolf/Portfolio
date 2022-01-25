@@ -10,7 +10,6 @@
 
 /* Start Navigation */
 
-
 .header-area .main-menu .navbar .navbar-brand {
   padding: 0.2rem 0rem;
 }
@@ -103,7 +102,7 @@
 
 /* Start Skills Area */
 
-.languages{
+.languages {
   text-align: center;
 }
 
@@ -143,9 +142,7 @@
   filter: brightness(0.95);
 }
 
-
 /* End Skills Area */
-
 
 /* Project Area */
 
@@ -166,15 +163,14 @@
   padding-left: 3rem;
 }
 
-.our-project{
+.our-project {
   height: 200px;
 }
 
-.our-project .img{
+.our-project .img {
   height: 80px;
   margin-left: 40px;
 }
-
 
 .our-project > .title h4 {
   font: normal 700 25px/12px var(--roboto);
@@ -183,7 +179,6 @@
 .our-project .img a:hover img {
   filter: brightness(1.1) drop-shadow(1px 2px 20px #b1afaf);
 }
-
 
 /* End Project Area */
 
@@ -229,10 +224,11 @@
 
 /* End Testimonials */
 
-
-
-
 /* Subscribe Area */
+
+.subscribe-area {
+  height: 800px;
+}
 
 .site-main .subscribe-area .subscribe {
   background: url(../images/subscribe-bg.png) no-repeat;
@@ -268,21 +264,21 @@ form .input-textbox input {
   padding: 0.7rem 2rem;
 }
 
-#mc_embed_signup{
+#mc_embed_signup {
   padding: 20px;
-width: 85%;
+  width: 85%;
 }
 
-.indicates-required{
+.indicates-required {
   float: right;
   padding-right: 20px;
 }
 
-.asterisk{
+.asterisk {
   color: red;
 }
 
-.mc-field-group{
+.mc-field-group {
   width: 100px;
 }
 
@@ -295,7 +291,7 @@ footer.footer-area {
   background: url(../images/footer-bg.png) no-repeat;
 }
 
-.social{
+.social {
   padding-top: 150px;
 }
 
