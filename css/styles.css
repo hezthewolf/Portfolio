@@ -9,6 +9,10 @@
 @import url(partials/_global.css);
 
 /* Start Navigation */
+.logo{
+  height: 100px;
+  width: 100px;
+}
 
 .header-area .main-menu .navbar .navbar-brand {
   padding: 0.2rem 0rem;
@@ -225,10 +229,6 @@
 /* End Testimonials */
 
 /* Subscribe Area */
-
-.subscribe-area {
-  height: 1200px;
-}
 
 .site-main .subscribe-area .subscribe {
   background: url(../images/subscribe-bg.png) no-repeat;
