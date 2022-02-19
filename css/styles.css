@@ -10,12 +10,14 @@
 
 /* Start Navigation */
 .logo{
-  height: 100px;
-  width: 100px;
+  font-weight: bold;
+  padding-top: 1rem;
 }
 
 .header-area .main-menu .navbar .navbar-brand {
   padding: 0.2rem 0rem;
+  display: flex;
+  align-items: center;
 }
 
 .header-area .main-menu .navbar {
